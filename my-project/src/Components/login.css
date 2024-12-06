@@ -1,0 +1,96 @@
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.topWrp {
+    height: 12%;
+    place-content: end;
+    border-style: solid;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+}
+
+.login {
+    margin: 0;
+    margin-bottom: 3%;
+    font-size: 18px;
+}
+
+.midWrp {
+    height: 70%;
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    place-content: center;
+}
+
+.emailWrp {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.emailSign {
+    margin: 0;
+    color: red;
+}
+
+.email {
+    margin: 0;
+    width: 90%;
+    text-align: start;
+    font-weight: 500;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+
+.emailInputWrp {
+    width: 100%;
+}
+
+.emailInput {
+    width: 95%;
+    height: 35px;
+}
+
+.pwdWrp {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pwdSign {
+    margin: 0;
+    color: red;
+}
+
+.pwd {
+    margin: 0;
+    width: 90%;
+    text-align: start;
+    font-weight: 500;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+
+.pwdInputWrp {
+    width: 100%;
+}
+
+.pwdInput {
+    width: 95%;
+    height: 35px;
+}
+
+.btn {
+    width: 90%;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+}

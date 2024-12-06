@@ -1,0 +1,249 @@
+.wrapperA {
+    height: 100vh;
+    width: 100vw;
+}
+
+.topWrpA {
+    height: 12%;
+    border-style: solid;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.agenda {
+    margin: 0;
+    margin-bottom: 3%;
+    font-size: 18px;
+    width: 30%;
+    margin-left: 30%;
+}
+
+a {
+    color: green;
+    margin-bottom: 3%;
+}
+
+.midWrpA {
+    height: 70%;
+    margin-top: 10%;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnLeft {
+    background-color: transparent;
+}
+
+.btnRight {
+    background-color: transparent;
+}
+
+.days {
+    margin-top: 8%;
+}
+
+.wrp1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.btn1 {
+    height: 80px;
+    width: 60px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.day1 {
+    margin: 0;
+    font-size: 10px;
+}
+
+.n1 {
+    margin: 0;
+    font-size: 28px;
+    color: green;
+}
+
+.month1 {
+    margin: 0;
+    font-size: 10px;
+}
+
+.text1 {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.wrp2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.btn2 {
+    height: 80px;
+    width: 60px;
+    background-color: green;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.day2 {
+    margin: 0;
+    font-size: 10px;
+    color: white;
+}
+
+.n2 {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+}
+
+.month2 {
+    margin: 0;
+    font-size: 10px;
+    color: white;
+}
+
+.text2 {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    width: 65%;
+    justify-content: center;
+}
+
+.wrp3 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.btn3 {
+    height: 80px;
+    width: 60px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.day3 {
+    margin: 0;
+    font-size: 10px;
+}
+
+.n3 {
+    margin: 0;
+    font-size: 28px;
+    color: green;
+}
+
+.month3 {
+    margin: 0;
+    font-size: 10px;
+}
+
+.text3 {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.wrp4 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.btn4 {
+    height: 80px;
+    width: 60px;
+    background-color: green;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.day4 {
+    margin: 0;
+    font-size: 10px;
+    color: white;
+}
+
+.n4 {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+}
+
+.month4 {
+    margin: 0;
+    font-size: 10px;
+    color: white;
+}
+
+.text4 {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    width: 65%;
+    justify-content: center;
+}
+
+.wrp5 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.btn5 {
+    height: 80px;
+    width: 60px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.day5 {
+    margin: 0;
+    font-size: 10px;
+}
+
+.n5 {
+    margin: 0;
+    font-size: 28px;
+    color: green;
+}
+
+.month5 {
+    margin: 0;
+    font-size: 10px;
+}
+
+.text5 {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.bottomWrpA {
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    justify-content: space-around;
+    font-size: 12px;
+}
