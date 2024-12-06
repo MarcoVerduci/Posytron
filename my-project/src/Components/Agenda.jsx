@@ -56,6 +56,46 @@ function Agenda() {
                                 <span>
                                     {giorno.orario || "Nessuna disponibilità selezionata"}
                                 </span>
+                                <button style={{
+                                    backgroundColor: giorno.stato === "modificato" ? "green" : "white",
+                                    color: giorno.stato === "modificato" ? "white" : "black",
+                                }}
+                                    onClick={() => navigate(`/orari/${range.start + index}`)}>
+                                    {giorno.data}
+                                </button>
+                                <span>
+                                    {giorno.orario || "Nessuna disponibilità selezionata"}
+                                </span>
+                                <button style={{
+                                    backgroundColor: giorno.stato === "modificato" ? "green" : "white",
+                                    color: giorno.stato === "modificato" ? "white" : "black",
+                                }}
+                                    onClick={() => navigate(`/orari/${range.start + index}`)}>
+                                    {giorno.data}
+                                </button>
+                                <span>
+                                    {giorno.orario || "Nessuna disponibilità selezionata"}
+                                </span>
+                                <button style={{
+                                    backgroundColor: giorno.stato === "modificato" ? "green" : "white",
+                                    color: giorno.stato === "modificato" ? "white" : "black",
+                                }}
+                                    onClick={() => navigate(`/orari/${range.start + index}`)}>
+                                    {giorno.data}
+                                </button>
+                                <span>
+                                    {giorno.orario || "Nessuna disponibilità selezionata"}
+                                </span>
+                                <button style={{
+                                    backgroundColor: giorno.stato === "modificato" ? "green" : "white",
+                                    color: giorno.stato === "modificato" ? "white" : "black",
+                                }}
+                                    onClick={() => navigate(`/orari/${range.start + index}`)}>
+                                    {giorno.data}
+                                </button>
+                                <span>
+                                    {giorno.orario || "Nessuna disponibilità selezionata"}
+                                </span>
                             </div>
                         ))}
                     </div>
